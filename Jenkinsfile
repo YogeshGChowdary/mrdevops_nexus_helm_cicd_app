@@ -33,5 +33,6 @@ pipeline{
                     waitForQualityGate abortPipeline: false, credentialsId: 'sonar-token'
                 }
             }
+        }
     }
 }
