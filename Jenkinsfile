@@ -34,16 +34,5 @@ pipeline{
                 }
             }
         }
-
-        // #stage('docker build and docker push to nexus repo'){
-
-        //     #steps{
-
-        //         #script{
-
-                    
-        //         }
-        //     }
-        // }
     }
 }
