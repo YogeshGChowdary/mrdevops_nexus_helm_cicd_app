@@ -24,7 +24,7 @@ pipeline{
                 }
             }
         }
-        stage('Quality gate status')
+        stage('Quality gate status'){
 
             steps{
 
